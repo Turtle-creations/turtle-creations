@@ -1,75 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Turtle Creations</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turtle Creations</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<header class="hero">
   <h1>🐢 Turtle Creations</h1>
-  <p>Short Films • AI Creations • Art • Comics</p>
+  <p>Short Films • AI Art • Comics • Stories</p>
 </header>
 
 <nav>
-  <a href="#home">Home</a>
-  <a href="#videos">Videos</a>
-  <a href="#art">Art & Wallpapers</a>
+  <a href="#films">Films</a>
+  <a href="#art">Wallpapers</a>
   <a href="#comics">Comics</a>
+  <a href="#stories">Stories</a>
   <a href="#contact">Contact</a>
 </nav>
 
-<section id="home" class="section">
-  <h2>Welcome</h2>
-  <p>
-    Turtle Creations is a creative space where I share my short films,
-    AI-generated art, wallpapers, comics, and visual stories.
-  </p>
+<!-- FILMS -->
+<section id="films" class="section dark">
+  <h2>Short Films</h2>
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
 </section>
 
-<section id="videos" class="section dark">
-  <h2>YouTube Videos</h2>
-  <div class="grid">
-    <!-- Replace VIDEO_ID -->
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
-  </div>
-</section>
-
+<!-- ART -->
 <section id="art" class="section">
   <h2>AI Art & Wallpapers</h2>
   <div class="grid">
     <div class="card">
-  <img src="1766133036568.jpg" alt="AI Wallpaper 1">
+      <img src="images/art1.jpg">
+      <a download href="images/art1.jpg">Download</a>
     </div>
-    <div class="card">AI Art 2</div>
-    <div class="card">Artwork 3</div>
-  </div>
-</section>
-  <div class="card">
-  <img src="1766133036568.jpg" alt="AI Wallpaper 1">
-  </div>
-<section id="comics" class="section dark">
-  <h2>Comics</h2>
-  <p>
-    Short visual comics and story-based art created using imagination and AI.
-  </p>
-  <div class="grid">
-    <div class="card">Comic Page 1</div>
-    <div class="card">Comic Page 2</div>
+    <div class="card">
+      <img src="images/art2.jpg">
+      <a download href="images/art2.jpg">Download</a>
+    </div>
   </div>
 </section>
 
-<section id="contact" class="section">
+<!-- COMICS -->
+<section id="comics" class="section dark">
+  <h2>Comics</h2>
+  <div class="slider">
+    <button onclick="prevSlide()">❮</button>
+    <img id="comicSlide" src="images/comic1.jpg">
+    <button onclick="nextSlide()">❯</button>
+  </div>
+</section>
+
+<!-- STORIES -->
+<section id="stories" class="section">
+  <h2>Stories</h2>
+  <p>Cinematic stories behind films & comics</p>
+  <a class="story-link" href="stories/story1.html">▶ Read Story 1</a>
+</section>
+
+<section id="contact" class="section dark">
   <h2>Contact</h2>
-  <p>Email: turtlecreations@gmail.com</p>
   <p>YouTube: Turtle Creations</p>
+  <p>Email: turtlecreations@gmail.com</p>
 </section>
 
 <footer>
-  <p>© 2025 Turtle Creations | All Rights Reserved</p>
+© 2025 Turtle Creations
 </footer>
 
 <script src="script.js"></script>
