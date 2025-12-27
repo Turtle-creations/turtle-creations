@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Turtle Creations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>🐢 Turtle Creations</h1>
+  <p>Short Films • AI Creations • Art • Comics</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#videos">Videos</a>
+  <a href="#art">Art & Wallpapers</a>
+  <a href="#comics">Comics</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="section">
+  <h2>Welcome</h2>
+  <p>
+    Turtle Creations is a creative space where I share my short films,
+    AI-generated art, wallpapers, comics, and visual stories.
+  </p>
+</section>
+
+<section id="videos" class="section dark">
+  <h2>YouTube Videos</h2>
+  <div class="grid">
+    <!-- Replace VIDEO_ID -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="art" class="section">
+  <h2>AI Art & Wallpapers</h2>
+  <div class="grid">
+    <div class="card">Wallpaper 1</div>
+    <div class="card">AI Art 2</div>
+    <div class="card">Artwork 3</div>
+  </div>
+</section>
+
+<section id="comics" class="section dark">
+  <h2>Comics</h2>
+  <p>
+    Short visual comics and story-based art created using imagination and AI.
+  </p>
+  <div class="grid">
+    <div class="card">Comic Page 1</div>
+    <div class="card">Comic Page 2</div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: turtlecreations@gmail.com</p>
+  <p>YouTube: Turtle Creations</p>
+</section>
+
+<footer>
+  <p>© 2025 Turtle Creations | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
